@@ -187,7 +187,7 @@ services:
       bootloader:
         condition: service_completed_successfully
   webapp:
-    image: hrbr.xn----7sbaoiav3byar4e7d.xn--p1aix/airbyte/webapp:ds_${VERSION}_dev
+    image: hrbr.xn----7sbaoiav3byar4e7d.xn--p1aix/airbyte/webapp:ds_3.8_dev
     logging: *default-logging
     container_name: airbyte-webapp
     restart: unless-stopped
